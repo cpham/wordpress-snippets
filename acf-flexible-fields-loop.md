@@ -1,4 +1,4 @@
-##Automatically include corresponding template for a Flexible Field layout using get_template_part and get_row_layout:
+##Automatically include corresponding template for a ACF Flexible Field layout using get_template_part and get_row_layout:
 
 ```
 // check if the flexible content field has rows of data
