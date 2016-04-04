@@ -2,7 +2,7 @@
 
 Put this in functions.php to use anywhere in your theme:
 
-```
+```php
 function pre_dump($var) {
 	echo '<pre>';
 	var_dump($var);
