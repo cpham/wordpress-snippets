@@ -3,7 +3,7 @@
 Use this function to validate your form data through Akismet's spam filtering. 
 You must have Akismet activated in order to use this.
 
-```
+```php
 function validate_spam($form_data) {
 	
 	if (function_exists('akismet_init')) {
@@ -52,7 +52,7 @@ function validate_spam($form_data) {
 ##Example usage
 
 ###The form
-```
+```html
 
 <form method="post">
 	<p><input type="text" placeholder="Name" name="full_name" /></p>
@@ -65,7 +65,7 @@ function validate_spam($form_data) {
 ```
 
 ###Processing the form
-```
+```php
 <?php
   $form_data = $_POST;
   $isSpam = validate_spam($form_data);
